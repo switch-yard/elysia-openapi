@@ -129,3 +129,13 @@ The endpoint to expose OpenAPI specification in JSON format
 Swagger config, refers to [Swagger config](https://swagger.io/docs/open-source-tools/swagger-ui/usage/configuration/)
 
 See [documentation](https://elysiajs.com/plugins/openapi.html) for more details.
+
+## Running the tests
+
+Install the packages, build, and run the tests with Bun:
+
+```sh
+bun install
+bun run build
+bun run test
+```
